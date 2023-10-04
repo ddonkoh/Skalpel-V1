@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ec25016bac4994f81bedf2089d7d35, type: 3}
+  m_Name: Data_RS_Diaphragm
+  m_EditorClassIdentifier: 
+  organType: 301
+  description: "The diaphragm is a double-domed musculotendinous sheet, located at
+    the inferior-most aspect of the rib cage. It serves two main functions: \r\n\r\nSeparates
+    the thoracic cavity from the abdominal cavity (the word diaphragm is derived
+    from the Greek \u2018di\xE1phragma\u2019, meaning partition). \r\n\r\nUndergoes
+    contraction and relaxation, altering the volume of the thoracic cavity and the
+    lungs, producing inspiration and expiration. \r\n\r\n \r\n\r\nThe diaphragm is
+    the primary muscle of respiration. During inspiration, it contracts and flattens,
+    increasing the vertical diameter of the thoracic cavity. This produces lung expansion,
+    and air is drawn in. During expiration, the diaphragm passively relaxes and returns
+    to its original dome shape. This reduces the volume of the thoracic cavity. "

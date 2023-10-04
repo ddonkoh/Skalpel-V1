@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ec25016bac4994f81bedf2089d7d35, type: 3}
+  m_Name: Data_NS_Brain
+  m_EditorClassIdentifier: 
+  organType: 400
+  description: "The brain is one of the largest and most complex organs in the human
+    body. \r\nIt is made up of more than 100 billion nerves that communicate in trillions
+    of connections called synapses. \r\n \r\nThe brain is made up of many specialized
+    areas that work together: \r\n\u2022 The cortex is the outermost layer of brain
+    cells. Thinking and voluntary movements begin in the cortex. \r\n\u2022 The brain
+    stem is between the spinal cord and the rest of the brain. Basic functions like
+    breathing and sleep are controlled here. \r\n\u2022 The basal ganglia are a cluster
+    of structures in the center of the brain. The basal ganglia coordinate messages
+    between multiple other brain areas. \r\n\u2022 The cerebellum is at the base
+    and the back of the brain. The cerebellum is responsible for coordination and
+    balance. \r\n \r\nThe brain is also divided into several lobes: \r\n\u2022 The
+    frontal lobes are responsible for problem solving and judgment and motor function.
+    \r\n\u2022 The parietal lobes manage sensation, handwriting, and body position.
+    \r\n\u2022 The temporal lobes are involved with memory and hearing. \r\n\u2022
+    The occipital lobes contain the brain's visual processing system. \r\n\r\nThe
+    brain is surrounded by a layer of tissue called the meninges. The skull (cranium)
+    helps protect the brain from injury. "

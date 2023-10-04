@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HumanOrgan.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 230a7b6a2a6dfd945a72358ebdb05152, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6bed2da1d92f4c346b53f13e673f57d6, type: 2}

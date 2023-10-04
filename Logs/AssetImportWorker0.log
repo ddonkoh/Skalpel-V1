@@ -1,0 +1,314 @@
+Unity Editor version:    2021.3.15f1 (e8e88683f834)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6 (Build 21G115)
+Darwin version:          21.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/dennisdonkoh/Downloads/Skalpel V1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63763
+Successfully changed project path to: /Users/dennisdonkoh/Downloads/Skalpel V1
+/Users/dennisdonkoh/Downloads/Skalpel V1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4438787456] Host "[IP] 192.168.0.47 [Port] 0 [Flags] 2 [Guid] 4275631723 [EditorId] 4275631723 [Version] 1048832 [Id] OSXEditor(0,Denniss-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4438787456] Host "[IP] 192.168.0.47 [Port] 0 [Flags] 2 [Guid] 4275631723 [EditorId] 4275631723 [Version] 1048832 [Id] OSXEditor(0,Denniss-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 87.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/dennisdonkoh/Downloads/Skalpel V1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56322
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001027 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 39.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.433 seconds
+Domain Reload Profiling:
+	ReloadAssembly (434ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (282ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (82ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (149ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005182 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 38.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+DllNotFoundException: MicrosoftOpenXRPlugin assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.MixedReality.OpenXR.NativeLib.SetPluginEnvironment(Microsoft.MixedReality.OpenXR.PluginEnvironment,string)
+  at Microsoft.MixedReality.OpenXR.PluginEnvironmentSubsystem.InitializePlugin () [0x0000d] in /Users/dennisdonkoh/Downloads/Skalpel V1/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs:38 
+  at Microsoft.MixedReality.OpenXR.OpenXRFeaturePlugin`1[TPlugin].OnEnable () [0x00006] in /Users/dennisdonkoh/Downloads/Skalpel V1/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/FeaturePlugins/OpenXRFeaturePlugin.cs:60 
+UnityEditor.EditorBuildSettings:GetConfigObject(String)
+UnityEditor.EditorBuildSettings:TryGetConfigObject(String, Object&) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorBuildSettings.bindings.cs:127)
+UnityEngine.XR.OpenXR.OpenXRSettings:GetPackageSettings() (at Library/PackageCache/com.unity.xr.openxr@1.6.0/Runtime/OpenXRSettings.cs:87)
+UnityEngine.XR.OpenXR.OpenXRSettings:GetSettingsForBuildTargetGroup(BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.6.0/Runtime/OpenXRSettings.cs:78)
+UnityEngine.XR.OpenXR.Features.OpenXRFeature:GetFullValidationList(List`1, BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.6.0/Runtime/Features/OpenXRFeature.cs:409)
+UnityEditor.XR.OpenXR.OpenXRProjectValidation:GetAllValidationIssues(List`1, BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.6.0/Runtime/OpenXRProjectValidation.cs:270)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules() (at Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/OpenXRProjectValidationRulesSetup.cs:70)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck() (at Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
+System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes() (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.878 seconds
+Domain Reload Profiling:
+	ReloadAssembly (879ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (747ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (423ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.31 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3860 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (358.5 KB). Loaded Objects now: 4349.
+Memory consumption went from 255.4 MB to 255.1 MB.
+Total: 2.656041 ms (FindLiveObjects: 0.130583 ms CreateObjectMapping: 0.053875 ms MarkObjects: 2.338250 ms  DeleteObjects: 0.132916 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 592711.617950 seconds.
+  path: Assets/Script/Global/Global.cs
+  artifactKey: Guid(bd7f34639dc91044c8fd9fdece78b269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Global/Global.cs using Guid(bd7f34639dc91044c8fd9fdece78b269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b23c6d925921aad1355029e94745ff') in 0.057835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.129855 seconds.
+  path: Assets/Script/Organ/CopyBoxCollider.cs
+  artifactKey: Guid(13819d83b50a1f149a5f686867216324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Organ/CopyBoxCollider.cs using Guid(13819d83b50a1f149a5f686867216324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d3c7816ed4d57da4fc82330d6e3449') in 0.002825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.922968 seconds.
+  path: Assets/Script/Organ/Organ.cs
+  artifactKey: Guid(54f779dacd901254599079195fa56b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Organ/Organ.cs using Guid(54f779dacd901254599079195fa56b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311e3a45bce0491ac9215f3fdbe0acb5') in 0.001346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.259523 seconds.
+  path: Assets/Script/Organ/OrganController.cs
+  artifactKey: Guid(935ad960fe5fa8447a76752aaa5f2dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Organ/OrganController.cs using Guid(935ad960fe5fa8447a76752aaa5f2dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8a43134ee4adaa92bb173cfd8ad8f3') in 0.001432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.056980 seconds.
+  path: Assets/Script/Organ/OrganFrontPoint.cs
+  artifactKey: Guid(dd2e15cf76dc4cd469c6c2ee988c29ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Organ/OrganFrontPoint.cs using Guid(dd2e15cf76dc4cd469c6c2ee988c29ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24cbea231640f0e4415ced10fd64f90') in 0.001572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.972581 seconds.
+  path: Assets/Script/UI/MiniOptionUI.cs
+  artifactKey: Guid(30be60540b4ecb949bb80f3a867b39df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/UI/MiniOptionUI.cs using Guid(30be60540b4ecb949bb80f3a867b39df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1329156d6376ea62a62541b69efee99c') in 0.010392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.911191 seconds.
+  path: Assets/Script/UI/SystemLessonUI.cs
+  artifactKey: Guid(afcdeb8da6b37e141bd7d2864db353ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/UI/SystemLessonUI.cs using Guid(afcdeb8da6b37e141bd7d2864db353ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64781d23730eedba98ce219b545b1881') in 0.001482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.565071 seconds.
+  path: Assets/Script/UI/TouchButton.cs
+  artifactKey: Guid(e9198a523383b6f4b876f1ec023cad7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/UI/TouchButton.cs using Guid(e9198a523383b6f4b876f1ec023cad7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59cdeef4e96c72f4fd6a11edd54b0d1e') in 0.003934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.962031 seconds.
+  path: Assets/Script/UI/UIManager.cs
+  artifactKey: Guid(e779a28bfbb749a41911f87bbbfe1446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/UI/UIManager.cs using Guid(e779a28bfbb749a41911f87bbbfe1446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fad5706604b4ee1aae25f05c29f321') in 0.001692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.760184 seconds.
+  path: Assets/Prefab/Organ
+  artifactKey: Guid(2fe61b5a7e1a9a1439da6af45bfd35bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Organ using Guid(2fe61b5a7e1a9a1439da6af45bfd35bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6935ef449df916dacfb78c522567fe0') in 0.004003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.284910 seconds.
+  path: Assets/++Imported++/TypesOfHumanBody/Assets/Textures/brown_eye.png
+  artifactKey: Guid(66dc7c1abee34b649967c480140d823d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/++Imported++/TypesOfHumanBody/Assets/Textures/brown_eye.png using Guid(66dc7c1abee34b649967c480140d823d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff8c59c848066de9308b817f7f5b965') in 0.628208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/++Imported++/TypesOfHumanBody/Assets/Textures/Tongue_H.png
+  artifactKey: Guid(249c6bd96b65133439a87465b9127d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/++Imported++/TypesOfHumanBody/Assets/Textures/Tongue_H.png using Guid(249c6bd96b65133439a87465b9127d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e810013e2b75c53c43cd4ac44a533a98') in 0.005149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/++Imported++/TypesOfHumanBody/Assets/Textures/Skin_N.bmp
+  artifactKey: Guid(6d2d12009095c8c40a201842e27746fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/++Imported++/TypesOfHumanBody/Assets/Textures/Skin_N.bmp using Guid(6d2d12009095c8c40a201842e27746fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e170ad0b88421333d55949203128aa2') in 0.518964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/++Imported++/TypesOfHumanBody/Assets/Textures/Tongue_N.png
+  artifactKey: Guid(3b1585c1ac9334848895338bef28e775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/++Imported++/TypesOfHumanBody/Assets/Textures/Tongue_N.png using Guid(3b1585c1ac9334848895338bef28e775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61a6d718bfb43193a529a5f372756e5') in 0.005278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/++Imported++/TypesOfHumanBody/Assets/Textures/Skin_D.png
+  artifactKey: Guid(4dcadafdce477294c9a20787da2f1b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/++Imported++/TypesOfHumanBody/Assets/Textures/Skin_D.png using Guid(4dcadafdce477294c9a20787da2f1b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e571b73c46c0110ee3e71ca9519bdc') in 0.006091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/++Imported++/TypesOfHumanBody/Assets/Textures/Tongue_M.png
+  artifactKey: Guid(e1c6849fe28ab034cb31a76134d19529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/++Imported++/TypesOfHumanBody/Assets/Textures/Tongue_M.png using Guid(e1c6849fe28ab034cb31a76134d19529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53143b168db35658c1220607848df71') in 0.005427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/++Imported++/TypesOfHumanBody/Assets/Textures/Teeth_D.png
+  artifactKey: Guid(7babc9f03005696488a9b9f5cc076e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/++Imported++/TypesOfHumanBody/Assets/Textures/Teeth_D.png using Guid(7babc9f03005696488a9b9f5cc076e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67c280fc7b56a992267b1ae220a4a42') in 0.005615 seconds 

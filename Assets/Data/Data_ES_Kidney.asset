@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ec25016bac4994f81bedf2089d7d35, type: 3}
+  m_Name: Data_ES_Kidney
+  m_EditorClassIdentifier: 
+  organType: 500
+  description: "The kidneys are two bean-shaped organs that are roughly the size
+    of a fist. A tough, fibrous renal capsule surrounds each kidney and provides
+    support for the soft tissue inside. Beyond that, two layers of fat serve as further
+    protection. The adrenal glands lie on top of the kidneys. \r\n\r\nInside the
+    kidneys are a number of pyramid-shaped lobes. Each consists of an outer renal
+    cortex and an inner renal medulla. Nephrons flow between these sections. Each
+    nephron includes a filter, called the glomerulus, and a tubule. The glomerulus
+    filters blood, which enters the kidneys through the renal arteries and leaves
+    through the renal veins. The kidneys are relatively small organs, but they receive
+    20\u201325%Trusted Source of the heart\u2019s output. \r\n\r\nThe tubule returns
+    necessary substances to the blood and removes waste that then becomes urine.
+    The kidneys excrete urine through the ureter, a tube that leads to the bladder. "
